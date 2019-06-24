@@ -1,0 +1,58 @@
+{
+    "name": "braceyourself/laravel-api-vendor",
+    "description": "Laravel Api Vendor",
+    "keywords": [
+        "braceyourself",
+        "laravel api vendor",
+        "laravel",
+        "api vendor"
+    ],
+    "homepage": "https://github.com/braceyourself/laravel-api-vendor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ethan Brace",
+            "email": "ethan@braceyourself.solutions",
+            "homepage": "http://www.braceyourself.solutions",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/database": "^5.8",
+        "illuminate/support": "^5.8",
+        "illuminate/validation": "^5.8",
+        "kitetail/zttp": "^0"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0",
+        "matthewbdaly/artisan-standalone": "^0.0.8",
+        "orchestra/testbench": "^3.8",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Braceyourself\\ApiVendor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Braceyourself\\ApiVendor\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Braceyourself\\ApiVendor\\ApiVendorServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<?php
+
+namespace App\ApiVendors;
+
+class DummyClass extends ApiVendor{
+
+}

@@ -1,0 +1,125 @@
+[2019-06-22 15:39:55] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:168)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(500): Illuminate\\Log\\LogManager->driver()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(116): Illuminate\\Log\\LogManager->error('The /mnt/c/User...', Array)
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/src/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Exception))
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(378): Matthewbdaly\\ArtisanStandalone\\Exceptions\\Handler->report(Object(Exception))
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(135): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Exception))
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-06-22 15:39:55] laravel.ERROR: The /mnt/c/Users/ethan/Code/api-vendor/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /mnt/c/Users/ethan/Code/api-vendor/bootstrap/cache directory must be present and writable. at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:168)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(127): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Matthewbdaly\\ArtisanStandalone\\Base\\Application))
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-06-22 15:41:50] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:168)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(500): Illuminate\\Log\\LogManager->driver()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(116): Illuminate\\Log\\LogManager->error('The /mnt/c/User...', Array)
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/src/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Exception))
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(378): Matthewbdaly\\ArtisanStandalone\\Exceptions\\Handler->report(Object(Exception))
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(135): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Exception))
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-06-22 15:41:50] laravel.ERROR: The /mnt/c/Users/ethan/Code/api-vendor/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /mnt/c/Users/ethan/Code/api-vendor/bootstrap/cache directory must be present and writable. at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:168)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(127): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Matthewbdaly\\ArtisanStandalone\\Base\\Application))
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-06-22 15:42:06] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:168)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(500): Illuminate\\Log\\LogManager->driver()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(116): Illuminate\\Log\\LogManager->error('The /mnt/c/User...', Array)
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/src/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Exception))
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(378): Matthewbdaly\\ArtisanStandalone\\Exceptions\\Handler->report(Object(Exception))
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(135): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Exception))
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-06-22 15:42:06] laravel.ERROR: The /mnt/c/Users/ethan/Code/api-vendor/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /mnt/c/Users/ethan/Code/api-vendor/bootstrap/cache directory must be present and writable. at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:168)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(127): Illuminate\\Foundation\\PackageManifest->write(Array)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Matthewbdaly\\ArtisanStandalone\\Base\\Application))
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-06-23 13:13:09] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:168)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(500): Illuminate\\Log\\LogManager->driver()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(116): Illuminate\\Log\\LogManager->error('Command \"dump-s...', Array)
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/src/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Console\\Exception\\CommandNotFoundException))
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(378): Matthewbdaly\\ArtisanStandalone\\Exceptions\\Handler->report(Object(Symfony\\Component\\Console\\Exception\\CommandNotFoundException))
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(135): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Symfony\\Component\\Console\\Exception\\CommandNotFoundException))
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-06-23 13:13:09] laravel.ERROR: Command "dump-server" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"dump-server\" is not defined. at /mnt/c/Users/ethan/Code/api-vendor/vendor/symfony/console/Application.php:652)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/symfony/console/Application.php(237): Symfony\\Component\\Console\\Application->find('dump-server')
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-06-23 13:13:23] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:168)
+[stacktrace]
+#0 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(102): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(90): Illuminate\\Log\\LogManager->get(NULL)
+#2 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(500): Illuminate\\Log\\LogManager->driver()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(116): Illuminate\\Log\\LogManager->error('chdir(): No suc...', Array)
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/src/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ErrorException))
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(378): Matthewbdaly\\ArtisanStandalone\\Exceptions\\Handler->report(Object(ErrorException))
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(135): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(ErrorException))
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-06-23 13:13:23] laravel.ERROR: chdir(): No such file or directory (errno 2) {"exception":"[object] (ErrorException(code: 0): chdir(): No such file or directory (errno 2) at /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php:42)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'chdir(): No suc...', '/mnt/c/Users/et...', 42, Array)
+#1 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php(42): chdir('/mnt/c/Users/et...')
+#2 [internal function]: Illuminate\\Foundation\\Console\\ServeCommand->handle()
+#3 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#4 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Matthewbdaly\\ArtisanStandalone\\Base\\Application), Array, Object(Closure))
+#6 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Matthewbdaly\\ArtisanStandalone\\Base\\Application), Array, Array, NULL)
+#7 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#8 /mnt/c/Users/ethan/Code/api-vendor/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#10 /mnt/c/Users/ethan/Code/api-vendor/vendor/symfony/console/Application.php(921): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /mnt/c/Users/ethan/Code/api-vendor/vendor/symfony/console/Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\ServeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /mnt/c/Users/ethan/Code/api-vendor/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /mnt/c/Users/ethan/Code/api-vendor/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /mnt/c/Users/ethan/Code/api-vendor/vendor/matthewbdaly/artisan-standalone/artisan(36): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 {main}
+"} 
