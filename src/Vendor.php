@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Braceyourself\ApiVendor;
+namespace Braceyourself\ApiVendors;
 
 
-use Braceyourself\ApiVendor\Support\ApiVendor;
+use Braceyourself\ApiVendors\Support\ApiVendor;
 use Illuminate\Database\Eloquent\Concerns\HasAttributes;
 
 class Vendor extends ApiVendor {

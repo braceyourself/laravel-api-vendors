@@ -1,6 +1,6 @@
 <?php
 
-namespace Braceyourself\ApiVendor\Commands;
+namespace Braceyourself\ApiVendors\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;

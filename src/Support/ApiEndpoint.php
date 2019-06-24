@@ -1,6 +1,6 @@
 <?php
 
-namespace Braceyourself\ApiVendor\Support;
+namespace Braceyourself\ApiVendors\Support;
 
 use Braceyourself\ApiVendor\Contracts\ResponseCallbackContract;
 use Braceyourself\ApiVendor\Http\ApiRequest;

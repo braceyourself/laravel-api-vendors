@@ -1,6 +1,6 @@
 <?php
 
-namespace Braceyourself\ApiVendor\Tests\Unit;
+ApiVendorsTests\Unit;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;

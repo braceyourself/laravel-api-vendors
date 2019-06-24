@@ -1,8 +1,10 @@
 <?php
 
-namespace Braceyourself\ApiVendor\Tests\Stubs;
+namespace Braceyourself\ApiVendors\Tests\Stubs;
 
-class VendorStub extends \Braceyourself\ApiVendor\Vendor
+use Braceyourself\ApiVendors\Vendor;
+
+class VendorStub extends Vendor
 {
 
 }

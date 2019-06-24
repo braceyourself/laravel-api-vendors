@@ -1,7 +1,7 @@
-<?php namespace Braceyourself\ApiVendor\Tests;
+<?php namespace Braceyourself\ApiVendors\Tests;
 
-use Braceyourself\ApiVendor\ApiVendorServiceProvider;
-use Braceyourself\ApiVendor\Vendor;
+use Braceyourself\ApiVendors\ApiVendorServiceProvider;
+use Braceyourself\ApiVendors\Vendor;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

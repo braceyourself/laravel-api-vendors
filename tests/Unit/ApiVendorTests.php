@@ -1,11 +1,11 @@
 <?php
 
-namespace Braceyourself\ApiVendor\Tests\Unit;
+namespace Braceyourself\ApiVendors\Tests\Unit;
 
-use Braceyourself\ApiVendor\Endpoint;
-use Braceyourself\ApiVendor\Tests\Stubs\VendorStub;
-use Braceyourself\ApiVendor\Vendor;
-use Braceyourself\ApiVendor\Tests\TestCase;
+use Braceyourself\ApiVendors\Endpoint;
+use Braceyourself\ApiVendors\Tests\Stubs\VendorStub;
+use Braceyourself\ApiVendors\Vendor;
+use Braceyourself\ApiVendors\Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Artisan;

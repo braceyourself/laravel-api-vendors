@@ -1,6 +1,6 @@
 <?php
 
-namespace Braceyourself\ApiVendor\Tests\Unit;
+namespace Braceyourself\ApiVendors\Tests\Unit;
 
 use Braceyourself\ApiVendor\Endpoint;
 use Braceyourself\ApiVendor\Http\ApiResponse;

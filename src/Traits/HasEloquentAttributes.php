@@ -1,6 +1,6 @@
 <?php
 
-namespace Braceyourself\ApiVendor\Traits;
+namespace Braceyourself\ApiVendors\Traits;
 
 use Illuminate\Database\Eloquent\Concerns\HasAttributes;
 

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Braceyourself\ApiVendor\Http;
+namespace Braceyourself\ApiVendors\Http;
 
 
 use Illuminate\Support\Facades\Validator;

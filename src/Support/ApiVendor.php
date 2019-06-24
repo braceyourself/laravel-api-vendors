@@ -1,6 +1,6 @@
 <?php
 
-namespace Braceyourself\ApiVendor\Support;
+namespace Braceyourself\ApiVendors\Support;
 
 use Braceyourself\ApiVendor\Endpoint;
 use Braceyourself\ApiVendor\Http\ApiRequest;

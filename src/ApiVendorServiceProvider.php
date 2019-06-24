@@ -1,6 +1,6 @@
 <?php
 
-namespace Braceyourself\ApiVendor;
+namespace Braceyourself\ApiVendors;
 
 use Braceyourself\ApiVendor\Commands\ApiVendorMakeCommand;
 use Illuminate\Support\ServiceProvider;

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Braceyourself\ApiVendor;
+namespace Braceyourself\ApiVendors;
 
 
-use Braceyourself\ApiVendor\Support\ApiEndpoint;
-use Braceyourself\ApiVendor\Support\ApiVendor;
+use Braceyourself\ApiVendors\Support\ApiEndpoint;
+use Braceyourself\ApiVendors\Support\ApiVendor;
 
 class Endpoint extends ApiEndpoint
 {

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Braceyourself\ApiVendor\Http;
+namespace Braceyourself\ApiVendors\Http;
 
 
-use Braceyourself\ApiVendor\Contracts\ApiRequestContract;
-use Braceyourself\ApiVendor\Support\ApiEndpoint;
+use Braceyourself\ApiVendors\Contracts\ApiRequestContract;
+use Braceyourself\ApiVendors\Support\ApiEndpoint;
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Validation\ValidationException;
 use Zttp\PendingZttpRequest;
@@ -21,7 +21,7 @@ use Zttp\ZttpResponse;
  * @method ApiResponse patch()
  * @method ApiResponse delete()
  * Class ApiRequest
- * @package Braceyourself\ApiVendor\Http
+ * @package Braceyourself\ApiVendors\Http
  */
 class ApiRequest
 {
