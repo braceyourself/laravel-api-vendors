@@ -1,5 +1,5 @@
 {
-    "name": "braceyourself/laravel-api-vendor",
+    "name": "braceyourself/laravel-api-vendors",
     "description": "Laravel Api Vendor",
     "keywords": [
         "braceyourself",
@@ -7,7 +7,7 @@
         "laravel",
         "api vendor"
     ],
-    "homepage": "https://github.com/braceyourself/laravel-api-vendor",
+    "homepage": "https://github.com/braceyourself/laravel-api-vendors",
     "license": "MIT",
     "authors": [
         {
